@@ -1,0 +1,6 @@
+# OptionsResolver
+[![Build Status](https://github.com/bim-g/wepesi-router/actions/workflows/php.yml/badge.svg)](https://github.com/bim-g/OptionsResolver/actions) [![Source](http://img.shields.io/badge/source-bimg/router-blue.svg?style=flat-square)](https://github.com/bim-g/OptionsResolver) [![Version](https://img.shields.io/packagist/v/wepesi/optionsresolver.svg?style=flat-square)](https://packagist.org/packages/wepesi/optionsresolver) [![Downloads](https://img.shields.io/packagist/dt/wepesi/optionsresolver.svg?style=flat-square)](https://packagist.org/packages/wepesi/optionsresolver/stats) [![License](https://img.shields.io/packagist/l/wepesi/optionsresolver.svg?style=flat-square)](https://github.com/bim-g/OptionsResolver/blob/master/LICENSE)
+[![Issues](https://img.shields.io/github/issues/bim-g/OptionsResolver?style=flat-square)](http://github.com/bim-g/OptionsResolver/issues)
+
+### description 
+The OptionsResolver component helps you configure objects with option arrays. It supports default values, option constraints and lazy options.
