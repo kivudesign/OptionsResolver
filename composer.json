@@ -1,0 +1,21 @@
+{
+    "name": "wepesi/optionsresolver",
+    "description": "The OptionsResolver component helps you configure objects with option arrays. It supports default values, option constraints and lazy options.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Wepesi\\Resolver\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bim-g",
+            "email": "ibmussafb@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=7.4"
+    }
+}
