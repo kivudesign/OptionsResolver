@@ -8,6 +8,14 @@
             "Wepesi\\Resolver\\": "src/"
         }
     },
+    "support": {
+        "email": "ibmussfb@gmail.com",
+        "issues": "https://github.com/bim-g/OptionsResolver/issues",
+        "forum": "https://github.com/bim-g/OptionsResolver",
+        "wiki": "https://github.com/bim-g/OptionsResolver",
+        "docs": "https://github.com/bim-g/OptionsResolver",
+        "source": "https://github.com/bim-g/OptionsResolver"
+    },
     "authors": [
         {
             "name": "bim-g",
