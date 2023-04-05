@@ -35,6 +35,7 @@ final class Option
     public function __construct(string $name)
     {
         $this->name = $name;
+        $this->validator = null;
     }
 
     public function getName(): string
