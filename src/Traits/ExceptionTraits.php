@@ -10,6 +10,6 @@ trait ExceptionTraits
 {
     protected function exception($ex):array
     {
-        return [get_class($ex) => $ex->getMessage()];
+        return ['InvalidArgumentException' => $ex];
     }
 }

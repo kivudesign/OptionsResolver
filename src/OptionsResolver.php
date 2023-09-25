@@ -36,7 +36,7 @@ final class OptionsResolver
     {
         try {
             $checkDiff = $this->checkDiff($options);
-            if(isset($checkDiff['exception'])){
+            if(isset($checkDiff['InvalidArgumentException'])){
                 return $checkDiff;
             }
             /**
@@ -61,7 +61,7 @@ final class OptionsResolver
                 throw new \InvalidArgumentException(sprintf('The required option "%s" is missing.', $optionName));
             }
             return $optionsResolved;
-        } catch (\Exception $ex) {
+        } catch (\InvalidArgumentException $ex) {
             return $this->exception($ex);
         }
     }
@@ -91,7 +91,7 @@ final class OptionsResolver
                 throw new \InvalidArgumentException($error_message);
             }
             return [];
-        } catch (\Exception $ex) {
+        } catch (\InvalidArgumentException $ex) {
             return $this->exception($ex);
         }
     }
